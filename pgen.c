@@ -3,7 +3,7 @@
 #include <time.h>
 #include <string.h>
 
-// void convert(int rep);
+
 int main(int argc,char *argv[]){
 
     char CAP[26] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
@@ -33,24 +33,3 @@ int main(int argc,char *argv[]){
     fclose(file);
     return 0 ;
 }
-// void convert(int rep ){
-//     FILE *ofile = fopen("pass1.txt","rb"); 
-//     FILE *nfile = fopen("passes.txt","a"); 
-//     unsigned char str[256]; 
-//     unsigned int num ; 
-//     int len ; 
-//     while ((len = fgetc(ofile))!=EOF){
-//         fread(str,len,1 ,ofile ); 
-//         str[len] = '\0'; 
-//         num = (unsigned int)fgetc(ofile)<<24 ;
-//         num |= fgetc(ofile)<<16; 
-//         num |= fgetc(ofile)<<8 ; 
-
-//         num |= fgetc(ofile ); 
-   
-//             fprintf(nfile,"%s\n",(char *)str); 
-    
-//     }
-//     fclose(ofile);
-//     fclose(nfile); 
-// }
