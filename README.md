@@ -1,1 +1,1 @@
-# WordlistGenerator-C
+Random password generator
